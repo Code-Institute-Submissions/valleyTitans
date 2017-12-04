@@ -1,0 +1,12 @@
+body{
+	background-image: "pictures/logo.jpg"
+}
+
+.navbar-inverse{
+	background-color: #003b6f;
+}
+
+.navbar-header{
+	color: white;
+	size: 100px;
+}
