@@ -1,5 +1,19 @@
 body{
-	background-image: "pictures/logo.jpg"
+	
+	border-style: double;
+	border-color: #fcff00;
+	background-size: cover;
+	background-color: #033e7d;
+}
+
+.container{
+	margin: auto;
+	padding: 0px;
+}
+
+div {
+	color: white;
+	margin: 0PX;
 }
 
 .navbar-inverse{
@@ -9,4 +23,24 @@ body{
 .navbar-header{
 	color: white;
 	size: 100px;
+}
+
+h1{
+	color: #000000;
+	font-family: "Bungee Inline";
+	text-align: center;
+}
+
+h2{
+	font-family: "Cambo";
+}
+
+.news{
+	background-image: url("Newspaper2.jpg");
+	background-size: contain;
+	background-color: #fefff9;
+	color: black;
+	border-color: #000000;
+	border-style: solid;
+	height: 750px;
 }
