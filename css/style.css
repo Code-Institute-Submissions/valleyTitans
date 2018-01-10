@@ -34,7 +34,7 @@ h1{
 }
 
 h2{
-	font-family: "Cambo";
+	font-family: "Bungee Inline";
 }
 
 .news{
@@ -47,4 +47,9 @@ h2{
 	height: 750px;
 	margin: 5px;
 	width: 22%;
+}
+
+.slideShow{
+	border-color: #000000;
+	border-style: solid;
 }
