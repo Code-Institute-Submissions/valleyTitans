@@ -7,8 +7,10 @@ body{
 }
 
 .container{
-	margin: auto;
-	padding: 0px;
+	margin left: auto;
+	margin-right: auto;
+	padding left: 0px;
+	padding-right: 0px;
 }
 
 div {
@@ -43,4 +45,6 @@ h2{
 	border-color: #000000;
 	border-style: solid;
 	height: 750px;
+	margin: 5px;
+	width: 22%;
 }
