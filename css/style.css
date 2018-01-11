@@ -1,9 +1,6 @@
 body{
-	
-	border-style: double;
-	border-color: #fcff00;
+	background-image: url("pitch.jpg");
 	background-size: cover;
-	background-color: #033e7d;
 }
 
 .container{
@@ -14,7 +11,7 @@ body{
 }
 
 div {
-	color: white;
+	color: black;
 	margin: 0PX;
 }
 
