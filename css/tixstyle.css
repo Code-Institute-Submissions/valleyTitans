@@ -1,0 +1,78 @@
+body{
+	background-image: url("pitch.jpg");
+	background-size: cover;
+}
+
+.navbar-inverse{
+	background-color: #003b6f;
+}
+
+.navbar-header{
+	color: white;
+	size: 100px;
+}
+
+
+label{
+	margin:10px;
+	display: inline-block;
+}
+
+legend{
+	margin: 10px;
+}
+
+input{
+	width: 50%;
+	display: inline-block;
+	float: right;
+	margin-right: 20px;
+}
+
+form{
+	padding:10px;
+}
+
+.flexContainer{
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content: flex-start; 
+	width: 	1200px;
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+	margin-left: 120px;	
+}
+
+.fixInfo{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content: flex-start; 
+}
+
+.images{
+	display: flex;
+	margin-left: 100px;
+	padding-top: 10px;
+	align-self: flex-start;
+}
+
+.fix{
+	border-style: solid;
+	border-radius: 10px;
+	border-color: black;
+	align-self: flex-start;
+	margin-top: 15px;
+	margin-left: 75px;
+	font-size: 20px;
+	width: 500px;
+	background-color: white;
+	align-content: top;
+
+
+.button{
+	width: 200px;
+}
