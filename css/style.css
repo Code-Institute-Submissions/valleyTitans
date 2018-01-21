@@ -10,9 +10,9 @@ body{
 	padding-right: 0px;
 }
 
+
 div {
 	color: black;
-	margin: 0PX;
 }
 
 .navbar-inverse{
@@ -41,7 +41,7 @@ h2{
 	color: black;
 	border-color: #000000;
 	border-style: solid;
-	height: 750px;
+	height: 600px;
 	margin: 5px;
 	width: 22%;
 }
@@ -49,4 +49,10 @@ h2{
 .slideShow{
 	border-color: #000000;
 	border-style: solid;
+}
+
+video{
+	border-color: #000000;
+	border-style: solid
+
 }
