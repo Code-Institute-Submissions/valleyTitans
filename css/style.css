@@ -34,6 +34,12 @@ h2{
 	font-family: "Bungee Inline";
 }
 
+.goal{
+	padding:5px; 
+	justify-content: center;
+	text-align: center;
+}
+
 .news{
 	background-image: url("Newspaper2.jpg");
 	background-size: contain;
@@ -41,10 +47,11 @@ h2{
 	color: black;
 	border-color: #000000;
 	border-style: solid;
-	height: 600px;
-	margin: 5px;
-	width: 22%;
+	height: auto;
+	margin-bottom: 10px;
 }
+
+
 
 .slideShow{
 	border-color: #000000;
@@ -52,7 +59,6 @@ h2{
 }
 
 video{
-	border-color: #000000;
-	border-style: solid
-
+	border-style: solid;
+	border-color: black;
 }
