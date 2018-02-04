@@ -1,6 +1,12 @@
 body{
-	background-image: url("pitch.jpg");
-	background-size: cover;
+	background-color: #b3b3ff;
+}
+
+.container{
+	margin left: auto;
+	margin-right: auto;
+	padding left: 0px;
+	padding-right: 0px;
 }
 
 .navbar-inverse{
@@ -11,7 +17,6 @@ body{
 	color: white;
 	size: 100px;
 }
-
 
 label{
 	margin:10px;
@@ -32,13 +37,28 @@ input{
 
 form{
 	padding:5px;
-	width: 450px;
+	width: 100%;
 	color: #cccccc;
+	background-color: #003b6f;
 }
 
 legend{
 	color: #cccccc;
 }
+
+
+@media screen and (min-width: 1000px){
+
+body{
+	background-image: url("pitch.jpg");
+	background-size: cover;
+}
+
+
+form{
+	width: 450px;
+}
+
 
 .flexContainer{
 	display: flex;
@@ -85,8 +105,9 @@ legend{
 	background-color: white;
 	align-content: top;
 	padding-left: 10px;
-
+}
 
 .button{
 	width: 200px;
+}
 }

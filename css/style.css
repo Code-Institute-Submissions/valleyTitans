@@ -1,6 +1,5 @@
 body{
-	background-image: url("pitch.jpg");
-	background-size: cover;
+	background-color: #b3b3ff;
 }
 
 .container{
@@ -61,4 +60,27 @@ h2{
 video{
 	border-style: solid;
 	border-color: black;
+}
+
+
+@media screen and (min-width: 1280px){
+	body{
+		background-image: url("pitch.jpg");
+		background-size: cover;
+		padding: 0px 10px;
+	}
+
+	.intro{
+		background-color: #b3b3ff;
+		border-style:solid;
+		border-radius: 10px;
+		border-color: black;
+		margin-bottom: 15px;
+	}
+
+	.slideshow{
+		width: 50%;
+		height: auto;
+	}
+
 }
