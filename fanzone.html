@@ -9,20 +9,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	 
+
+<header>
 	<nav class ="navbar navbar-inverse">
 		<div class ="container">	
 			<img src ="pictures/logo1.png" alt ="logo" style="width: 50px;height: 50px; background-color: #003b6f; float:left;">
 				<div class="navbar-header">
 				    <a class="navbar-brand" href="index.html">Valley Titans</a>                   
-				        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myCollapsingList">
+        				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#list">
 					   		<span class="icon-bar"></span>
-				        	<span class="icon-bar"></span>
-				      		<span class="icon-bar"></span>
-				        </button>
-				</div>
+				           	<span class="icon-bar"></span>
+				           	<span class="icon-bar"></span>
+        				</button>
+				</div>	
 
-			<ul id = "Menu" class ="nav navbar-nav navbar-right">
+			<ul id ="list" class ="nav navbar-nav navbar-right collapse navbar-collapse">
 				<li><a href="index.html">Home</a></li>
 				<li><a href="fixtures.html">Fixtures</a></li>
 				<li><a href="tickets.html">Tickets</a></li>
@@ -31,57 +32,68 @@
 			</ul>
 		</div>
 	</nav>
+</header>
 
+<section>
 	<h1>FANZONE</h1>
 	<div class="intro">
-		<p> Videos	 and Pictures of all the latest action!!</p>
+		<p> Videos and Pictures of all the latest action!!</p>
 	</div>
 
+	
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-lg-6">
-				<h1>Videos</h1>
-				<video controls= "controls" preload="metadata" width="300" height="200">
+			<h1>Latest Videos</h1>
+				<video class="col-lg-3 col-xs-12 col-md-6 col-sm-6" controls= "controls" preload="metadata" width="300" height="200">
 				    <source src="videos/goal (1).mp4" type="video/mp4"/>
 				    <source src="videos/goal (1).ogv" type="video/ogg"/>
 				    <source src="videos/goal (1).webm" type="video/webm"/>
 				</video>
 
-				<video controls= "controls" preload="metadata" width="300" height="200">
+				<video class="col-lg-3 col-xs-12 col-md-6 col-sm-6" controls= "controls" preload="metadata" width="300" height="200">
 				    <source src="videos/goal (2).mp4" type="video/mp4"/>
 				    <source src="videos/goal (2).ogv" type="video/ogg"/>
 				    <source src="videos/goal (2).webm" type="video/webm"/>
 				</video>
 
-				<video controls= "controls" preload="metadata" width="300" height="200">
+				<video class="col-lg-3 col-xs-12 col-md-6 col-sm-6" controls= "controls" preload="metadata" width="300" height="200">
 				    <source src="videos/goal (3).mp4" type="video/mp4"/>
 				    <source src="videos/goal (3).ogv" type="video/ogg"/>
 				    <source src="videos/goal (3).webm" type="video/webm"/>
 				</video>
 
-				<video controls= "controls" preload="metadata" width="300" height="200">
+				<video class="col-lg-3 col-xs-12 col-md-6 col-sm-6" controls= "controls" preload="metadata" width="300" height="200">
 				    <source src="videos/goal (4).mp4" type="video/mp4"/>
 				    <source src="videos/goal (4).ogv" type="video/ogg"/>
 				    <source src="videos/goal (4).webm" type="video/webm"/>
 				</video>
-			</div>
-
-			<div class="col-lg-6">
-					<h1>Pictures</h1>
-					<img  class="actionPics" src="pictures/action1.jpg" alt="player picture" style="width: 300px; height: 200px;">
-					<img  class="actionPics" src="pictures/action2.jpg" alt="player picture" style="width: 300px; height: 200px;">
-					<img  class="actionPics" src="pictures/action3.jpg" alt="player picture" style="width: 300px; height: 200px;">
-					<img  class="actionPics" src="pictures/action4.jpg" alt="player picture" style="width: 300px; height: 200px;">
-					<img  class="actionPics" src="pictures/action5.jpg" alt="player picture" style="width: 300px; height: 200px;">
-					<img  class="actionPics" src="pictures/action6.jpg" alt="player picture" style="width: 300px; height: 200px;">
 
 			</div>
+		</div>	
 
+	<div class="container-fluid">
+		<div class="row">
+			
+					<h1>Latest Pictures</h1>
+					<img  class="actionPics col-lg-6 col-xs-12" src="pictures/action1.jpg" alt="player picture">
+					<img  class="actionPics col-lg-6 col-xs-12" src="pictures/action2.jpg" alt="player picture">
+					<img  class="actionPics col-lg-6 col-xs-12" src="pictures/action3.jpg" alt="player picture">
+					<img  class="actionPics col-lg-6 col-xs-12" src="pictures/action4.jpg" alt="player picture">
+					<img  class="actionPics col-lg-6 col-xs-12" src="pictures/action5.jpg" alt="player picture">
+					<img  class="actionPics col-lg-6 col-xs-12" src="pictures/action6.jpg" alt="player picture">
+					<img  class="actionPics col-lg-6 col-xs-12" src="pictures/action7.jpg" alt="player picture">
+					<img  class="actionPics col-lg-6 col-xs-12" src="pictures/action8.jpg" alt="player picture">
 		</div>
 	</div>
 
+			
+
+		
+
+</section>
 
 
-
+    <script src='http://code.jquery.com/jquery.min.js'></script>
+    <script src='bootstrap/js/bootstrap.min.js'></script>
 </body>
 </html>

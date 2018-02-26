@@ -1,19 +1,8 @@
 body{
-	background-image: url("pitch.jpg");
-	background-size: cover;
+	background: radial-gradient(#3636b0,#8a8adb);
 	text-align: center;
 }
 
-.container{
-	margin left: auto;
-	margin-right: auto;
-	padding left: 0px;
-	padding-right: 0px;
-}
-
-.container-fluid{
-	margin-left: 50px;
-}
 
 
 div {
@@ -42,35 +31,10 @@ h2{
 .intro{
 	text-align: center;
 	font-size: 20px;
-	background-color: #003b6f;
-	border-style: double;
-	border-color: black;
-	border-width: 5px;
+
 	color: white;
-	width: 500px;
-	margin-left: 500px;
-	margin-bottom: 50px;
+
 }
-
-.actionShots{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	padding-bottom: : 10px;
-	margin-right:auto;
-	margin-left:auto;
-	width:700px;
-}
-
-
-video{
-	padding: 10px;
-}
-
-img{
-	padding: 5px;
-}
-
 .actionPics{
 	border-style: solid;
 	border-color: black;
