@@ -6,6 +6,10 @@ section{
 	margin: 10px;
 }
 
+header{
+		background-color: #b3b3ff;
+}
+
 .container{
 	margin left: auto;
 	margin-right: auto;
@@ -49,17 +53,14 @@ h2{
 	color: black;
 	border-color: #000000;
 	border-style: solid;
-	height: au;
+	height: auto;
 	margin-bottom: 10px;
 }
 
 .intro{
 	color: black;
-	background-color: #b3b3ff;
-	border-style:solid;
-	border-radius: 10px;
-	border-color: black;
-	margin-bottom: 15px;
+	padding: 10px;
+	padding-top: 0px;
 }
 
 @media screen and (min-width: 1280px){

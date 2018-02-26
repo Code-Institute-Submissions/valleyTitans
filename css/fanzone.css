@@ -2,9 +2,9 @@ body{
 	background: radial-gradient(#3636b0,#8a8adb);
 	text-align: center;
 }
-
-
-
+header{
+		background-color: #b3b3ff;
+}
 div {
 	color: black;
 }
@@ -31,8 +31,7 @@ h2{
 .intro{
 	text-align: center;
 	font-size: 20px;
-
-	color: white;
+	color: black;
 
 }
 .actionPics{
