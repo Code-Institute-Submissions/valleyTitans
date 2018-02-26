@@ -1,6 +1,5 @@
 body{
-	background-image: url("pitch.jpg");
-	background-size: cover;
+	background: radial-gradient(#3636b0,#8a8adb);
 }
 
 .container{
