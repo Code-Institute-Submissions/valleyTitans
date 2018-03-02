@@ -11,9 +11,9 @@ header{
 }
 
 .container{
-	margin left: auto;
+	margin-left: auto;
 	margin-right: auto;
-	padding left: 0px;
+	padding-left: 0px;
 	padding-right: 0px;
 }
 
@@ -22,13 +22,27 @@ div {
 	color: black;
 }
 
-.navbar-inverse{
+.navbar{
 	background-color: #003b6f;
+	color: white;
 }
 
-.navbar-header{
+
+
+.navbar-light .navbar-brand{
 	color: white;
-	size: 100px;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/09/Menu-thin-circular-outlined-button.svg);
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.5);
 }
 
 h1{
@@ -47,7 +61,7 @@ h2{
 }
 
 .news{
-	background-image: url("Newspaper2.jpg");
+	background-image: url("../Pictures/Newspaper2.jpg");
 	background-size: contain;
 	background-color: #fefff9;
 	color: black;
@@ -55,6 +69,7 @@ h2{
 	border-style: solid;
 	height: auto;
 	margin-bottom: 10px;
+	font-weight: bold;
 }
 
 .intro{
@@ -63,4 +78,4 @@ h2{
 	padding-top: 0px;
 }
 
-@media screen and (min-width: 1280px){
+.
