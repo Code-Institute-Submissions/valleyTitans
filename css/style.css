@@ -27,8 +27,6 @@ div {
 	color: white;
 }
 
-
-
 .navbar-light .navbar-brand{
 	color: white;
 }
@@ -43,6 +41,11 @@ div {
 
 .navbar-light .navbar-nav .nav-link {
     color: rgba(255, 255, 255, 0.5);
+}
+
+video{
+	width: 100%;
+	height: auto;
 }
 
 h1{
