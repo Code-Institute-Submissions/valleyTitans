@@ -47,15 +47,17 @@ h3{
 	padding-bottom: 20px;
 	background-color: #000066;
 	border-radius:20px;
+	font-size: 26px;
 }
 
-.home1{
-	background-color: #000066;
-	color: white;
+.home{
+	background-color: RGB(32,56,100);
+	color: RGB(214,220,229);
 }
 
 .away{
-	background-color: #ff0000;
+	background-color: RGB(210,0,0);
+	color: RGB(255,199,199);
 }
 
 h1{
@@ -72,4 +74,8 @@ h1{
 	text-align: center;
 }
 
+@media only screen and (min-width: 1281px) {
 
+   .fix { 
+      font-size: 16px; 
+   }
