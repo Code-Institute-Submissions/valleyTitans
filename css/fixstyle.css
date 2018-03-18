@@ -3,15 +3,15 @@ body{
 }
 
 header{
-	margin-bottom: 50px;
+		background-color: #b3b3ff;
+		margin-bottom: 20px;
 }
-
-
 
 .navbar{
 	background-color: #003b6f;
 	color: white;
 }
+
 
 .navbar-light .navbar-brand{
 	color: white;
@@ -21,6 +21,7 @@ header{
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/09/Menu-thin-circular-outlined-button.svg);
 }
 
+
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: rgba(255, 255, 255, 0.9);
 }
@@ -29,11 +30,12 @@ header{
     color: rgba(255, 255, 255, 0.5);
 }
 
+
 h3{
 	text-align:center;
 }
 
-li{
+.fix li{
 	margin-left: 40%
 }
 
@@ -47,12 +49,12 @@ li{
 	border-radius:20px;
 }
 
-#home1{
+.home1{
 	background-color: #000066;
 	color: white;
 }
 
-#away{
+.away{
 	background-color: #ff0000;
 }
 
@@ -67,4 +69,7 @@ h1{
 	color: black;
 	padding: 10px;
 	padding-top: 0px;
+	text-align: center;
 }
+
+
