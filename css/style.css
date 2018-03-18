@@ -59,11 +59,15 @@ h2{
 	background-image: url("../Pictures/Newspaper2.jpg");
 	background-size: contain;
 	background-color: #fefff9;
-	color: black;
 	border-color: #000000;
 	border-style: solid;
 	height: auto;
 	margin-bottom: 10px;
+
+}
+
+article{
+	color: black;
 	font-weight: bold;
 }
 
@@ -71,4 +75,13 @@ h2{
 	color: black;
 	padding: 10px;
 	padding-top: 0px;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }

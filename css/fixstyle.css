@@ -50,9 +50,14 @@ h3{
 	font-size: 26px;
 }
 
+
 .home{
 	background-color: RGB(32,56,100);
 	color: RGB(214,220,229);
+}
+
+.home:hover{
+	background: radial-gradient(RGB(35,56,100),RGB(0,0,0));
 }
 
 .away{
@@ -60,11 +65,14 @@ h3{
 	color: RGB(255,199,199);
 }
 
+.away:hover{
+	background: radial-gradient(RGB(210,0,0),RGB(0,0,0));
+}
+
 h1{
 	color: #000000;
 	font-family: "Bungee Inline";
 	text-align: center;
-	font-size: 25px;
 }
 
 .intro{

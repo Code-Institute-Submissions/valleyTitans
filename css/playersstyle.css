@@ -2,11 +2,18 @@ body{
 	background: radial-gradient(#3636b0,#8a8adb);
 }
 
-.container{
-	margin left: auto;
-	margin-right: auto;
-	padding left: 0px;
-	padding-right: 0px;
+
+header{
+		background-color: #b3b3ff;
+}
+
+.intro{
+		text-align: center;
+}
+
+.intro h1{
+	color: black;
+	font-family: "Bungee Inline";
 }
 
 div {
@@ -34,10 +41,11 @@ div {
     color: rgba(255, 255, 255, 0.5);
 }
 
-h1{
+.player h1{
 	color: RGB(189,215,238);
 	text-align: center;
 	font-size: x-large
+
 }
 
 h2{
@@ -54,6 +62,11 @@ h2{
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
+
+}
+
+.player:hover{
+	background: radial-gradient(RGB(93,155,255),RGB(0,32,96));
 }
 
 td{
