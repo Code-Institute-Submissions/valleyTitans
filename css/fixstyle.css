@@ -1,43 +1,12 @@
 body{
-	background: radial-gradient(#3636b0,#8a8adb);
+	background-color:#8a8adb;
 }
 
 header{
 	margin-bottom: 50px;
 }
 
-h3{
-	text-align:center;
-}
 
-li{
-	margin-left: 40%
-}
-
-.fix{
-	border:solid;
-	border-width: medium;
-	border-color: #8a8adb;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	background-color: #000066;
-}
-
-#home{
-	background-color: #000066;
-	color: white;
-}
-
-#away{
-	background-color: #ff0000;
-}
-
-.container{
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 0px;
-	padding-right: 0px;
-}
 
 .navbar{
 	background-color: #003b6f;
@@ -60,9 +29,42 @@ li{
     color: rgba(255, 255, 255, 0.5);
 }
 
+h3{
+	text-align:center;
+}
+
+li{
+	margin-left: 40%
+}
+
+.fix{
+	border:solid;
+	border-width: medium;
+	border-color: #8a8adb;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #000066;
+	border-radius:20px;
+}
+
+#home1{
+	background-color: #000066;
+	color: white;
+}
+
+#away{
+	background-color: #ff0000;
+}
+
 h1{
 	color: #000000;
 	font-family: "Bungee Inline";
 	text-align: center;
 	font-size: 25px;
+}
+
+.intro{
+	color: black;
+	padding: 10px;
+	padding-top: 0px;
 }

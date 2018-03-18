@@ -9,11 +9,6 @@ body{
 	padding-right: 0px;
 }
 
-.container-fluid{
-	margin-left: 50px;
-}
-
-
 div {
 	color: black;
 }
@@ -40,41 +35,34 @@ div {
 }
 
 h1{
-	color: #000000;
-	font-family: "Bungee Inline";
+	color: RGB(189,215,238);
 	text-align: center;
+	font-size: x-large
 }
 
 h2{
 	font-family: "Bungee Inline";
-}
-
-
-.playerBio{
-	border-style: solid;
-	border-color: black;
-	border-width: 2px;
-	background-color: white;
-	width: 500px;
-	padding-left: 5px;
+	font-size: larger;
+	color:white;
 }
 
 .player{
-	background-color:#003b6f;
-	padding: 10px;
-	width: 500px;
+	margin-top: 50px;
+	background-color: RGB(0, 32,96);
+	border:solid;
+	border-radius:20px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
-.playerPic{
-	margin-left: 97.5px;
+td{
+	text-align: left;
+	color: white;
+	font-weight: bold;
 }
 
-.actionShots{
-	display: flex;
-	flex-direction: column;
-	padding: 10px;
-}
-
-.actionPics{
-	padding-bottom: 10px;
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
