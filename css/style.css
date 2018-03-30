@@ -1,17 +1,10 @@
-body{
-	background: radial-gradient(#3636b0,#8a8adb);
-}
-
-section{
-	margin: 10px;
-}
+/*...............................header*/
 
 header{
 		background-color: #b3b3ff;
-}
-
-div {
-	color: black;
+		border-bottom-color: #003b6f;
+		border-bottom-width: medium;
+		border-bottom-style: solid
 }
 
 .navbar{
@@ -33,6 +26,16 @@ div {
 
 .navbar-light .navbar-nav .nav-link {
     color: rgba(255, 255, 255, 0.5);
+}
+
+/*..............................section*/
+
+body{
+	background: radial-gradient(#3636b0,#8a8adb);
+}
+
+section{
+	margin: 10px;
 }
 
 video{
@@ -77,11 +80,36 @@ article{
 	padding-top: 0px;
 }
 
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+/*...........................footer*/
+
+footer{
+	background-color: #b3b3ff;
+	color: #003b6f;
+	min-height:120px; 
+	margin-top: 50px;
+	padding-top: 10px;
+	border-top-color: #003b6f;
+	border-top-width: medium;
+	border-top-style: solid;
 }
+
+.social-links li a i{
+	color: #003b6f;
+	font-size: 30px;
+}
+
+.footer-navbar li{
+	color: #003b6f;
+}
+
+
+footer ul li i{
+	color: #003b6f;
+	padding-right:10px;
+}
+
+footer a{
+	color: #003b6f;
+}
+
+
