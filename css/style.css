@@ -49,9 +49,6 @@ h1{
 	text-align: center;
 }
 
-h2{
-	font-family: "Bungee Inline";
-}
 
 .goal{ 
 	justify-content: center;
@@ -129,3 +126,192 @@ footer a{
 	max-height: 100%;
 	max-width: 100%;
 }
+
+/*...............................Squad list*/
+.player h1{
+	color: RGB(189,215,238);
+	text-align: center;
+	font-size: x-large
+
+}
+
+h2{
+	font-family: "Bungee Inline";
+	font-size: larger;
+	color:white;
+}
+
+.player{
+	margin-top: 50px;
+	background-color: RGB(0, 32,96);
+	border:solid;
+	border-radius:20px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.player:hover{
+	background: radial-gradient(RGB(93,155,255),RGB(0,32,96));
+}
+
+.player td{
+	text-align: left;
+	color: white;
+	font-weight: bold;
+}
+
+.player img {
+   width: 100px;
+   height: 150px;
+}
+
+.player ul li i{
+	color: RGB(189,215,238);
+	padding-right:10px;
+}
+
+.player h5{
+	color: RGB(189,215,238);
+	padding-top: 20px;
+}
+
+/*...............................fixture list*/
+
+h3{
+	text-align:center;
+}
+
+.fix li{
+	margin-left: 40%
+}
+
+.fix{
+	border:solid;
+	border-width: medium;
+	border-color: #8a8adb;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #000066;
+	border-radius:20px;
+	font-size: 26px;
+}
+
+
+.home{
+	background-color: RGB(32,56,100);
+	color: RGB(214,220,229);
+}
+
+.home:hover{
+	background: radial-gradient(RGB(35,56,100),RGB(0,0,0));
+}
+
+.away{
+	background-color: RGB(210,0,0);
+	color: RGB(255,199,199);
+}
+
+.away:hover{
+	background: radial-gradient(RGB(210,0,0),RGB(0,0,0));
+}
+
+@media only screen and (min-width: 1281px) {
+
+   .fix { 
+      font-size: 16px; 
+   }
+	
+}
+
+/*.................................tickets form*/
+
+label{
+	margin:10px;
+	display: inline-block;
+}
+
+legend{
+	margin: 10px;
+}
+
+input{
+	float: right;
+	color: black;
+	width: 50%;
+}
+
+form{
+	color: #cccccc;
+	background-color: #003b6f;
+}
+
+legend{
+	color: #cccccc;
+}
+
+.flexContainer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center; 
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;	
+	background-color: #003b6f; 
+}
+
+.images{
+	display: flex;
+	margin-top: 50px;
+	padding-top: 0px;
+	border-style: double;
+	border-color: #cccccc;
+	border-width: 10px;
+	justify-content: center;
+
+}
+
+@media screen and (min-width: 1000px){
+
+form{
+	width: 450px;
+}
+
+
+.flexContainer{
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content: flex-start; 
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+	margin: 5px;	
+	padding:5px 5px 10px 5px;
+	background-color: #003b6f; 
+}
+
+.images{
+	display: flex;
+	margin-left: 125px;
+	margin-top: 0px;
+	padding-top: 0px;
+	align-self: flex-start;
+	border-style: double;
+	border-color: #cccccc;
+	border-width: 10px;
+
+}
+
+.button{
+	width: auto;
+}
+
+input{
+	width: 60%;
+	display: inline-block;
+	margin-right: 10px;
+	color: black;
+}}
