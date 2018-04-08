@@ -95,7 +95,7 @@ footer{
 
 .social-links li a i{
 	color: #003b6f;
-	font-size: 30px;
+	font-size: 40px;
 }
 
 .footer-navbar li{
@@ -110,6 +110,10 @@ footer ul li i{
 
 footer a{
 	color: #003b6f;
+}
+
+.about{
+	padding-bottom: 10px;
 }
 
 /*...............................Fanzone*/
@@ -127,6 +131,10 @@ footer a{
 	margin-bottom: 20px;
 	max-height: 100%;
 	max-width: 100%;
+}
+
+.latest-pics{
+	margin-top: 50px;
 }
 
 /*...............................Squad list*/
