@@ -53,6 +53,7 @@ h1{
 .goal{ 
 	justify-content: center;
 	text-align: center;
+	margin-bottom: 50px;
 }
 
 .news{
@@ -63,6 +64,7 @@ h1{
 	border-style: solid;
 	height: auto;
 	margin-bottom: 10px;
+	margin-top: 10px;
 
 }
 
@@ -138,7 +140,7 @@ footer a{
 h2{
 	font-family: "Bungee Inline";
 	font-size: larger;
-	color:white;
+	color:black;
 }
 
 .player{
@@ -262,15 +264,20 @@ legend{
 	background-color: #003b6f; 
 }
 
-.images{
-	display: flex;
-	margin-top: 50px;
-	padding-top: 0px;
+.form-image img{
+    border: solid;
 	border-style: double;
-	border-color: #cccccc;
+	border-color: black;
 	border-width: 10px;
-	justify-content: center;
+	margin-bottom: 20px;
+	max-height: 100%;
+	max-width: 100%;
+	display: flex;
+	flex-direction: row;
+}
 
+.form-image{
+	padding: 20px 10px 5px 10px
 }
 
 @media screen and (min-width: 1000px){
@@ -293,18 +300,6 @@ form{
 	background-color: #003b6f; 
 }
 
-.images{
-	display: flex;
-	margin-left: 125px;
-	margin-top: 0px;
-	padding-top: 0px;
-	align-self: flex-start;
-	border-style: double;
-	border-color: #cccccc;
-	border-width: 10px;
-
-}
-
 .button{
 	width: auto;
 }
@@ -314,4 +309,10 @@ input{
 	display: inline-block;
 	margin-right: 10px;
 	color: black;
-}}
+}
+	
+.form-image {
+
+	padding: 50px 100px 50px 100px
+}
+}

@@ -4,7 +4,7 @@ The project required me tp create a website for a local football team called Val
 
 ## Purpose of Website
 
-The purpose of the website is to provide information about the club players and staff. There will be a fixture list and form for users to apply to buy tickets There will also be a fanzone with all the latest news and media the club has to offer.
+The purpose of the website is to provide information about the club, players, and staff. There will be a fixture list and form for users to apply to buy tickets There will also be a fanzone with all the latest news and media the club has to offer.
 
 ## Technical 
 
@@ -12,7 +12,9 @@ The purpose of the website is to provide information about the club players and 
 
 The website has a responsive design that can be used acroos mobile, tablets, laptops and desktop platforms. The user will need access to one of these devices and a browser to acces the internet.
 
-### Code used
+### Design
+
+### Built With
 
 #### CSS
 Bootsrap version 4
