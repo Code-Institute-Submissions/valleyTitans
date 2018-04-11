@@ -312,6 +312,12 @@ form{
 	width: auto;
 }
 
+.btn-primary {
+    color: #fff;
+    background-color: #003b6f;
+    border-color: #007bff;
+}
+
 input{
 	width: 60%;
 	display: inline-block;
