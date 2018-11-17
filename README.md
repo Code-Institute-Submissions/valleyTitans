@@ -15,8 +15,8 @@ A list of personas and user stories can be found [here][1] but for the purpose o
 
 Balsamq mockups was used to create wire frames of the webpages and these can be found [here][2].
 
-[1]:https://github.com/cjmorgan1185/valleyTitans/blob/master/Desigm/Persona.pptx
-[2]:https://github.com/cjmorgan1185/valleyTitans/tree/master/Desigm
+[1]:https://github.com/cjmorgan1185/valleyTitans/blob/master/Design/Persona.pptx
+[2]:https://github.com/cjmorgan1185/valleyTitans/tree/master/Design
 
 ## List of website features
 ### Existing Features
