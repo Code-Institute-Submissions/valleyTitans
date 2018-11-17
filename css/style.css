@@ -1,62 +1,65 @@
 /*...............................header*/
 
-header{
-		background-color: #b3b3ff;
-		border-bottom-color: #003b6f;
-		border-bottom-width: medium;
-		border-bottom-style: solid
+header {
+	background-color: #b3b3ff;
+	border-bottom-color: #003b6f;
+	border-bottom-width: medium;
+	border-bottom-style: solid
 }
 
-.navbar{
+.navbar {
 	background-color: #003b6f;
 	color: white;
 }
 
-.navbar-light .navbar-brand{
+.navbar-light .navbar-brand {
 	color: white;
 }
 
 .navbar-light .navbar-toggler-icon {
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/09/Menu-thin-circular-outlined-button.svg);
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/09/Menu-thin-circular-outlined-button.svg);
 }
 
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: rgba(255, 255, 255, 0.9);
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+	color: rgba(255, 255, 255, 0.9);
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 0.5);
+	color: rgba(255, 255, 255, 0.5);
 }
 
 /*..............................section*/
 
-body{
-	background: radial-gradient(#3636b0,#8a8adb);
+body {
+	background: radial-gradient(#3636b0, #8a8adb);
 }
 
-section{
+section {
 	margin: 10px;
 }
 
-video{
+video {
 	width: 100%;
 	height: auto;
 }
 
-h1{
+h1 {
 	color: #000000;
 	font-family: "Bungee Inline";
 	text-align: center;
 }
 
 
-.goal{ 
+.goal {
 	justify-content: center;
 	text-align: center;
 	margin-bottom: 50px;
 }
 
-.news{
+.news {
 	background-image: url("../Pictures/Newspaper2.jpg");
 	background-size: contain;
 	background-color: #fefff9;
@@ -68,12 +71,12 @@ h1{
 
 }
 
-article{
+article {
 	color: black;
 	font-weight: bold;
 }
 
-.intro{
+.intro {
 	color: black;
 	padding: 10px;
 	padding-top: 0px;
@@ -82,10 +85,10 @@ article{
 
 /*...........................footer*/
 
-footer{
+footer {
 	background-color: #b3b3ff;
 	color: #003b6f;
-	min-height:120px; 
+	min-height: 120px;
 	margin-top: 50px;
 	padding-top: 10px;
 	border-top-color: #003b6f;
@@ -93,38 +96,38 @@ footer{
 	border-top-style: solid;
 }
 
-.social-links li a i{
+.social-links li a i {
 	color: #003b6f;
 	font-size: 40px;
 }
 
-.footer-navbar li{
+.footer-navbar li {
 	color: #003b6f;
 }
 
 
-footer ul li i{
+footer ul li i {
 	color: #003b6f;
-	padding-right:10px;
+	padding-right: 10px;
 }
 
-footer a{
+footer a {
 	color: #003b6f;
 }
 
-.about{
+.about {
 	padding-bottom: 10px;
 }
 
 /*...............................Fanzone*/
 
-.fanzone-video{
-    max-width: 100%;
-    max-height: 100%;
+.fanzone-video {
+	max-width: 100%;
+	max-height: 100%;
 }
 
-.pics img{
-    border: solid;
+.pics img {
+	border: solid;
 	border-style: double;
 	border-color: black;
 	border-width: 10px;
@@ -133,147 +136,147 @@ footer a{
 	max-width: 100%;
 }
 
-.latest-pics{
+.latest-pics {
 	margin-top: 50px;
 }
 
 /*...............................Squad list*/
-.player h1{
-	color: RGB(189,215,238);
+
+.player h1 {
+	color: RGB(189, 215, 238);
 	text-align: center;
 	font-size: x-large
-
 }
 
-h2{
+h2 {
 	font-family: "Bungee Inline";
 	font-size: larger;
-	color:black;
+	color: black;
 }
 
-.player{
+.player {
 	margin-top: 50px;
-	background-color: RGB(0, 32,96);
-	border:solid;
-	border-radius:20px;
+	background-color: RGB(0, 32, 96);
+	border: solid;
+	border-radius: 20px;
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
 
 }
 
-.player:hover{
-	background: radial-gradient(RGB(93,155,255),RGB(0,32,96));
+.player:hover {
+	background: radial-gradient(RGB(93, 155, 255), RGB(0, 32, 96));
 }
 
-.player td{
+.player td {
 	text-align: left;
 	color: white;
 	font-weight: bold;
 }
 
 .player img {
-   width: 100px;
-   height: 100px;
+	width: 100px;
+	height: 100px;
 }
 
-.player ul li i{
-	color: RGB(189,215,238);
-	padding-right:10px;
+.player ul li i {
+	color: RGB(189, 215, 238);
+	padding-right: 10px;
 }
 
-.player h5{
-	color: RGB(189,215,238);
+.player h5 {
+	color: RGB(189, 215, 238);
 	padding-top: 20px;
 }
 
 /*...............................fixture list*/
 
-h3{
-	text-align:center;
+h3 {
+	text-align: center;
 }
 
-.fix li{
+.fix li {
 	margin-left: 40%
 }
 
-.fix{
-	border:solid;
+.fix {
+	border: solid;
 	border-width: medium;
 	border-color: #8a8adb;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	background-color: #000066;
-	border-radius:20px;
+	border-radius: 20px;
 	font-size: 26px;
 }
 
 
-.home{
-	background-color: RGB(32,56,100);
-	color: RGB(214,220,229);
+.home {
+	background-color: RGB(32, 56, 100);
+	color: RGB(214, 220, 229);
 }
 
-.home:hover{
-	background: radial-gradient(RGB(35,56,100),RGB(0,0,0));
+.home:hover {
+	background: radial-gradient(RGB(35, 56, 100), RGB(0, 0, 0));
 }
 
-.away{
-	background-color: RGB(210,0,0);
-	color: RGB(255,199,199);
+.away {
+	background-color: RGB(210, 0, 0);
+	color: RGB(255, 199, 199);
 }
 
-.away:hover{
-	background: radial-gradient(RGB(210,0,0),RGB(0,0,0));
+.away:hover {
+	background: radial-gradient(RGB(210, 0, 0), RGB(0, 0, 0));
 }
 
 @media only screen and (min-width: 1281px) {
 
-   .fix { 
-      font-size: 16px; 
-   }
-	
+	.fix {
+		font-size: 16px;
+	}
+
 }
 
 /*.................................tickets form*/
 
-label{
-	margin:10px;
+label {
+	margin: 10px;
 	display: inline-block;
 }
 
-legend{
+legend {
 	margin: 10px;
 }
 
-input{
+input {
 	float: right;
 	color: black;
 	width: 50%;
 }
 
-form{
+form {
 	color: #cccccc;
 	background-color: #003b6f;
 }
 
-legend{
+legend {
 	color: #cccccc;
 }
 
-.flexContainer{
+.flexContainer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center; 
+	justify-content: center;
 	border-style: solid;
 	border-color: black;
-	border-radius: 10px;	
-	background-color: #003b6f; 
+	border-radius: 10px;
+	background-color: #003b6f;
 }
 
-.form-image img{
-    border: solid;
+.form-image img {
+	border: solid;
 	border-style: double;
 	border-color: black;
 	border-width: 10px;
@@ -284,49 +287,49 @@ legend{
 	flex-direction: row;
 }
 
-.form-image{
+.form-image {
 	padding: 20px 10px 5px 10px
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1000px) {
 
-form{
-	width: 450px;
-}
+	form {
+		width: 450px;
+	}
 
 
-.flexContainer{
-	display: flex;
-	flex-direction: row;
-	align-items:center;
-	justify-content: flex-start; 
-	border-style: solid;
-	border-color: black;
-	border-radius: 10px;
-	margin: 5px;	
-	padding:5px 5px 10px 5px;
-	background-color: #003b6f; 
-}
+	.flexContainer {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: flex-start;
+		border-style: solid;
+		border-color: black;
+		border-radius: 10px;
+		margin: 5px;
+		padding: 5px 5px 10px 5px;
+		background-color: #003b6f;
+	}
 
-.button{
-	width: auto;
-}
+	.button {
+		width: auto;
+	}
 
-.btn-primary {
-    color: #fff;
-    background-color: #003b6f;
-    border-color: #007bff;
-}
+	.btn-primary {
+		color: #fff;
+		background-color: #003b6f;
+		border-color: #007bff;
+	}
 
-input{
-	width: 60%;
-	display: inline-block;
-	margin-right: 10px;
-	color: black;
-}
-	
-.form-image {
+	input {
+		width: 60%;
+		display: inline-block;
+		margin-right: 10px;
+		color: black;
+	}
 
-	padding: 50px 100px 50px 100px
-}
+	.form-image {
+
+		padding: 50px 100px 50px 100px
+	}
 }
