@@ -13,10 +13,10 @@ A list of personas and user stories can be found [here][1] but for the purpose o
 7.	As a player I want to access the club’s social media via the website
 8.	As a Journalist I want to be able to get the club’s contact details from the website
 
-Balsamq mockups was used to create wire frames of the webpages and these can be found here.
-Features
+Balsamq mockups was used to create wire frames of the webpages and these can be found [here][2].
 
-[1]:
+[1]:https://github.com/cjmorgan1185/valleyTitans/blob/master/Desigm/Persona.pptx
+[2]:https://github.com/cjmorgan1185/valleyTitans/tree/master/Desigm
 
 ## List of website features
 ### Existing Features
@@ -46,7 +46,7 @@ Features
 ## Testing
 1.	Navigation Bar
     1.	Click all buttons on navigation bar
-    2.	2 All relative pages open as per description in navbar
+    2.	All relative pages open as per description in navbar
     3.	Change screen resolution and navbar becomes collapsible on smaller screens as expected.
 
 2.	Fixture List 
@@ -76,14 +76,14 @@ Features
     3. Clicking shows message “Social Media Success”
 
 7.	Browser Test
-    1. Link to browser test [here][1]
+    1. Link to browser test [here][3]
 
-
+[3]: https://github.com/cjmorgan1185/valleyTitans/blob/master/Desigm/testing.xlsx
 
 ## Deployment
-The website has been deployed via github pages and can be found [https://cjmorgan1185.github.io/valleyTitans/index.html][2]
+The website has been deployed via github pages and can be found [https://cjmorgan1185.github.io/valleyTitans/index.html][4]
 
-[2]: https://cjmorgan1185.github.io/valleyTitans/index.html
+[4]: https://cjmorgan1185.github.io/valleyTitans/index.html
 
 ## Credits
 ### Content
