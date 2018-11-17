@@ -78,7 +78,7 @@ Balsamq mockups was used to create wire frames of the webpages and these can be 
 7.	Browser Test
     1. Link to browser test [here][3]
 
-[3]: https://github.com/cjmorgan1185/valleyTitans/blob/master/Desigm/testing.xlsx
+[3]: https://github.com/cjmorgan1185/valleyTitans/blob/master/Design/testing.xlsx
 
 ## Deployment
 The website has been deployed via github pages and can be found [https://cjmorgan1185.github.io/valleyTitans/index.html][4]
